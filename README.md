@@ -12,6 +12,6 @@ Vite — build tool and development server
 1. Clone the repository git clone https://github.com/your-username/starcoffee.git
 2. Open the project
 
-   Simply open index.html in your browser.
+Simply open index.html in your browser.
 
 📱 Responsive Design The layout adapts to different screen sizes using CSS media queries to ensure a great experience on all devices.
