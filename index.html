@@ -1,19 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-  <link
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css"
     />
-    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>coffee-proj</title>
   </head>
   <body>
+    <!-------------HEADER--------------->
     <header class="header" id="header">
       <nav class="nav container">
         <a href="#" class="nav__logo">STARCOFFEE</a>
@@ -29,55 +33,143 @@
             <i class="ri-close-large-line"></i>
           </div>
         </div>
-        <div class="nav__togle" id="nav-togle">
+        <div class="nav__toggle" id="nav-toggle">
           <i class="ri-apps-2-fill"></i>
         </div>
       </nav>
     </header>
+    <!-------------MAIN--------------->
     <main class="main">
-      <section class="home-section" id="home">
+      <!-------------HOME--------------->
+      <section class="home section" id="home">
         <div class="home__container container grid">
           <h1 class="home__title">COLD COFFEE</h1>
           <div class="home__images">
-            <div class="home__shape">
-              <img
-                src="./img/home-splash.png"
-                alt="image"
-                class="home__splash"
-              />
-              <img src="./img/bean-img.png" alt="image" class="home__bean-2" />
-              <img
-                src="./img/home-coffee.png"
-                alt="image"
-                class="home__coffee"
-              />
-              <img src="./img/bean-img.png" alt="image" class="home__bean-1" />
-              <img src="./img/ice-img.png" alt="image" class="home__ice-1" />
-              <img src="./img/ice-img.png" alt="image" class="home__ice-2" />
-              <img src="./img/leaf-img.png" alt="image" class="home__leaf" />
-            </div>
-            <img
-              src="./img/home-sticker.svg"
-              alt="image"
-              class="home__sticker"
-            />
-            <div class="home__data">
-              <p class="home__description">
-                Find delicious hot and cold coffees with the best varieties,
-                calm the pleasure and enjoy a good coffee, order now.
-              </p>
-              <a href="#about"><button>Learn More</button>
+            <div class="home__shape"></div>
+            <img src="./img/home-splash.png" alt="image" class="home__splash" />
+            <img src="./img/bean-img.png" alt="image" class="home__bean-2" />
+            <img src="./img/home-coffee.png" alt="image" class="home__coffee" />
+            <img src="./img/bean-img.png" alt="image" class="home__bean-1" />
+            <img src="./img/ice-img.png" alt="image" class="home__ice-1" />
+            <img src="./img/ice-img.png" alt="image" class="home__ice-2" />
+            <img src="./img/leaf-img.png" alt="image" class="home__leaf" />
+          </div>
+          <img src="./img/home-sticker.svg" alt="image" class="home__sticker" />
+          <div class="home__data">
+            <p class="home__description">
+              Find delicious hot and cold coffees with the best varieties, calm
+              the pleasure and enjoy a good coffee, order now.
+            </p>
+            <a href="#about" class="button">Learn More</a>
+          </div>
+        </div>
+      </section>
+      <!-------------POPULAR--------------->
+      <section class="popular section" id="popular">
+        <div class="popular__container container">
+          <h2 class="section__title">
+            POPULAR <br />
+            CREATIONS
+          </h2>
+          <div class="popular__swiper swiper">
+            <div class="swiper-wrapper">
+              <article class="popular__card swiper-slide">
+                <div class="popular__images">
+                  <div class="popular__shape"></div>
+                  <img
+                    src="./img/bean-img.png"
+                    alt=""
+                    class="popular__bean-1"
+                  />
+                  <img
+                    src="./img/bean-img.png"
+                    alt=""
+                    class="popular__bean-2"
+                  />
+                  <img
+                    src="./img/popular-coffee-1.png"
+                    alt=""
+                    class="popular__coffee"
+                  />
+                </div>
+                <div class="popular__data">
+                  <h2 class="popular__name">VANILLA LATTE</h2>
+                  <p class="popular__description">
+                    Indulge in the simplicity of our delicious cold brew coffee.
+                  </p>
+                  <a href="#contact" class="button button-dark"
+                    >Order now: $19.90</a
+                  >
+                </div>
+              </article>
+              <article class="popular__card swiper-slide">
+                <div class="popular__images">
+                  <div class="popular__shape"></div>
+                  <img
+                    src="./img/bean-img.png"
+                    alt=""
+                    class="popular__bean-1"
+                  />
+                  <img
+                    src="./img/bean-img.png"
+                    alt=""
+                    class="popular__bean-2"
+                  />
+                  <img
+                    src="./img/popular-coffee-2.png"
+                    alt=""
+                    class="popular__coffee"
+                  />
+                </div>
+                <div class="popular__data">
+                  <h2 class="popular__name">CLASSIC COFFEE</h2>
+                  <p class="popular__description">
+                    Indulge in the simplicity of our delicious cold brew coffee.
+                  </p>
+                  <a href="#contact" class="button button-dark"
+                    >Order now: $19.90</a
+                  >
+                </div>
+              </article>
+              <article class="popular__card swiper-slide">
+                <div class="popular__images">
+                  <div class="popular__shape"></div>
+                  <img
+                    src="./img/bean-img.png"
+                    alt=""
+                    class="popular__bean-1"
+                  />
+                  <img
+                    src="./img/bean-img.png"
+                    alt=""
+                    class="popular__bean-2"
+                  />
+                  <img
+                    src="./img/popular-coffee-3.png"
+                    alt=""
+                    class="popular__coffee"
+                  />
+                </div>
+                <div class="popular__data">
+                  <h2 class="popular__name">MOCHA COFFEE</h2>
+                  <p class="popular__description">
+                    Indulge in the simplicity of our delicious cold brew coffee.
+                  </p>
+                  <a href="#contact" class="button button-dark"
+                    >Order now: $19.90</a
+                  >
+                </div>
+              </article>
             </div>
           </div>
         </div>
       </section>
-      <section class="popular-section" id="popular"></section>
       <section class="about-section" id="about"></section>
       <section class="products-section" id="products"></section>
       <section class="contact-section" id="contact"></section>
     </main>
     <footer class="footer"></footer>
-     <script src="./js/swiper-bundle.min.js"></script>
-    <script  src="./js/main.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>

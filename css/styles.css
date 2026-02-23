@@ -149,7 +149,7 @@ img {
   color: var(--first-color);
 }
 
-.nav__togle,
+.nav__toggle,
 .nav__close {
   display: flex;
   color: var(--white-color);
@@ -227,7 +227,7 @@ img {
   height: 280px;
   background-color: var(--first-color);
   border-radius: 50%;
-  clip-path: (50% 0 0 0);
+  clip-path: inset(50% 0 0 0);
 }
 
 .home__images img {
@@ -236,7 +236,7 @@ img {
 
 .home__coffee {
   width: 160px;
-  top: -3, 5rem;
+  top: -3.5rem;
   rotate: 10deg;
 }
 
@@ -318,4 +318,99 @@ img {
 .button:hover {
   background-color: var(--first-color);
   box-shadow: 0 8px 24px hsla(166, 85%, 8%, 0.2);
+}
+
+/*-------------POPULAR---------------*/
+.popular {
+  background-color: var(--body-white-color);
+}
+
+.popular .section__title {
+  color: var(--title-color);
+}
+
+.popular__swiper {
+  padding-top: 1.5rem;
+}
+
+.popular__card {
+  width: 270px;
+  display: grid;
+  row-gap: 1.5rem;
+}
+
+.popular__images {
+  position: relative;
+  display: grid;
+  justify-items: center;
+  justify-self: center;
+}
+
+.popular__shape {
+  width: 195px;
+  height: 195px;
+  background-color: var(--first-color);
+  border-radius: 50%;
+  clip-path: inset(50% 0 0 0);
+}
+
+.popular__images img {
+  position: absolute;
+}
+
+.popular__coffee {
+  width: 130px;
+  top: -1.5rem;
+}
+
+.popular__bean-1 {
+  width: 30px;
+  top: 3rem;
+  left: 0.5rem;
+  transition: transform 0.5s 0.1s;
+}
+
+.popular__bean-2 {
+  width: 20px;
+  right: 2rem;
+  bottom: 2rem;
+  rotate: 75deg;
+  filter: blur(1px);
+  transition: transform 0.5s 0.1s;
+}
+
+.popular__data {
+  text-align: center;
+}
+
+.popular__name {
+  font-size: var(--h1-font-size);
+  color: var(--title-color);
+  margin-bottom: 0.5rem;
+}
+
+.popular__description {
+  margin-bottom: 1.5rem;
+}
+
+.popular__card:hover .popular__bean-1 {
+  transform: translate(-0.5rem, -0.25rem);
+}
+
+.popular__card:hover .popular__bean-2 {
+  transform: translate(0.5rem, -0.25rem);
+}
+
+.button-dark {
+  background-color: var(--dark-color);
+}
+
+.button-dark:hover {
+  background-color: var(--dark-color);
+}
+
+/*=============== SWIPER CLASS ===============*/
+.swiper {
+  overflow: visible;
+  margin-inline: initial;
 }
