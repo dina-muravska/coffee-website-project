@@ -1012,6 +1012,68 @@ img {
     top: 13rem;
     right: 3.5rem;
   }
+
+  .products__container {
+    grid-template-columns: repeat(3, 250px);
+    gap: 5rem;
+    padding-bottom: 2rem;
+  }
+  .products__card {
+    padding: 1.5rem 1rem 2rem;
+  }
+  .products__shape {
+    width: 200px;
+    height: 200px;
+  }
+  .products__coffee {
+    width: 130px;
+  }
+  .products__ice-1 {
+    width: 50px;
+    left: 0.75rem;
+  }
+  .products__ice-1 {
+    width: 30px;
+    top: 5.5rem;
+    right: 1.5rem;
+  }
+  .products__data {
+    margin-top: 1.5rem;
+  }
+  .products__name,
+  .products__price {
+    font-size: var(--h2-font-size);
+  }
+  .products__button {
+    right: 1rem;
+    bottom: 2rem;
+    width: 36px;
+    height: 36px;
+  }
+
+  .contact .section__title {
+    font-size: var(--biggest-font-size);
+  }
+  .contact__container {
+    grid-template-columns: repeat(3, max-content);
+    align-items: flex-start;
+    column-gap: 3rem;
+  }
+  .contact__info {
+    grid-template-columns: max-content;
+    row-gap: 6rem;
+    margin-top: 7rem;
+  }
+  .contact__info:nth-child(2) {
+    order: 2;
+  }
+  .contact__title {
+    font-size: var(--h2-font-size);
+    margin-bottom: 1rem;
+  }
+  .contact__social {
+    column-gap: 1.5rem;
+  }
 }
 
 /* For 2K resolutions (2048 x 1152, 2048 x 1536) */
