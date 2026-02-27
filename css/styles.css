@@ -763,7 +763,52 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 330px) {
+  .container {
+    margin-inline: 1rem;
+  }
+  .section__title {
+    font-size: 2rem;
+  }
 
+  .home__title {
+    font-size: 3.5rem;
+  }
+  .home__shape {
+    width: 250px;
+    height: 250px;
+  }
+  .home__coffee {
+    width: 145px;
+  }
+  .home__splash {
+    width: 310px;
+  }
+  .home__sticker {
+    top: 25rem;
+  }
+
+  .about__shape {
+    width: 250px;
+    height: 250px;
+  }
+  .about__coffee {
+    width: 240px;
+  }
+
+  .products__container {
+    grid-template-columns: 160px;
+    justify-content: center;
+  }
+
+  .contact__shape {
+    width: 250px;
+    height: 250px;
+  }
+  .contact__delivery {
+    width: 190px;
+  }
+}
 /* For medium devices */
 
 /* For large devices */
