@@ -1074,6 +1074,43 @@ img {
   .contact__social {
     column-gap: 1.5rem;
   }
+  .contact__images {
+    margin-top: 0;
+  }
+  .contact__shape {
+    width: 500px;
+    height: 500px;
+  }
+  .contact__delivery {
+    width: 380px;
+    top: -3.5rem;
+  }
+
+  .footer__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer__container div:nth-child(3) {
+    grid-column: initial;
+  }
+  .footer__container div:nth-child(2) {
+    order: 1;
+    justify-self: end;
+  }
+  .footer__container div:nth-child(1) {
+    justify-self: start;
+  }
+  .footer__social,
+  .footer__pay {
+    margin-inline: auto;
+    justify-content: center;
+  }
+  .footer__copy {
+    margin-top: 5rem;
+  }
+
+  .scrollup {
+    right: 3rem;
+  }
 }
 
 /* For 2K resolutions (2048 x 1152, 2048 x 1536) */
