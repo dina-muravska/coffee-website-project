@@ -96,4 +96,22 @@ const sr = ScrollReveal({
 
 sr.reveal(`.home__shape`, { origin: "bottom" });
 sr.reveal(`.home__coffee`, { delay: 1000, distance: "200px", duration: 1500 });
-sr.reveal(`.home__splash`, { delay: 1000, distance: "200px", duration: 1500 });
+sr.reveal(`.home__splash`, { delay: 1600, scale: 0, duration: 1500 });
+sr.reveal(`.home__bean-1, .home__bean-2`, {
+  delay: 2200,
+  scale: 0,
+  duration: 1500,
+  rotate: { z: 180 },
+});
+sr.reveal(`.home__ice-1, .home__ice-2`, {
+  delay: 2600,
+  scale: 0,
+  duration: 1500,
+  rotate: { z: 180 },
+});
+sr.reveal(`.home__leaf`, {
+  delay: 2800,
+  scale: 0,
+  duration: 1500,
+  rotate: { z: 90 },
+});
