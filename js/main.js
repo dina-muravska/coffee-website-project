@@ -86,3 +86,14 @@ const scrollActive = () => {
 window.addEventListener("scroll", scrollActive);
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
+const sr = ScrollReveal({
+  origin: "top",
+  distance: "60px",
+  duration: 2000,
+  delay: 300,
+  // reset: true,
+});
+
+sr.reveal(`.home__shape`, { origin: "bottom" });
+sr.reveal(`.home__coffee`, { delay: 1000, distance: "200px", duration: 1500 });
+sr.reveal(`.home__splash`, { delay: 1000, distance: "200px", duration: 1500 });
