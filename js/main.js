@@ -93,7 +93,7 @@ const sr = ScrollReveal({
   delay: 300,
   // reset: true,
 });
-
+sr.reveal(`.popular__swiper`);
 sr.reveal(`.home__shape`, { origin: "bottom" });
 sr.reveal(`.home__coffee`, { delay: 1000, distance: "200px", duration: 1500 });
 sr.reveal(`.home__splash`, { delay: 1600, scale: 0, duration: 1500 });
@@ -114,4 +114,19 @@ sr.reveal(`.home__leaf`, {
   scale: 0,
   duration: 1500,
   rotate: { z: 90 },
+});
+sr.reveal(`.home__title`, {
+  delay: 3500,
+});
+sr.reveal(`.home__data, .home__sticker`, {
+  delay: 4000,
+});
+sr.reveal(`.about__data`, {
+  origin: "left",
+});
+sr.reveal(`.about__images`, {
+  origin: "right",
+});
+sr.reveal(`.about__coffee`, {
+  delay: 1000,
 });
